@@ -7,5 +7,13 @@ class ActiveSupport::TestCase
   let(:h1_text_loaded)  { 'Test Header' }
   let(:h1_text_clicked) { 'Clicked!' }
 
-
+  
 end
+
+class ActionController::TestCase
+  def assert_not_nil param
+    refute_nil param
+  end
+end
+
+

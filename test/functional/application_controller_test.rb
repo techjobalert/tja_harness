@@ -12,6 +12,10 @@ class ApplicationControllerTest < ActionController::TestCase
       assert_select 'body', text: ''
     end
 
+    it 'does not redirect' do
+      response.code.must_equal "200" 
+    end
+
   end
 
 

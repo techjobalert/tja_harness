@@ -9,6 +9,7 @@ group :assets do
   gem 'compass-rails'
   gem 'jquery-rails'
   gem 'sass-rails'
+  gem 'libv8'
   gem 'therubyracer'
   gem 'uglifier'
 end
@@ -22,6 +23,7 @@ group :test do
   gem 'database_cleaner'
   gem 'factory_girl'
   gem 'm'
+  gem 'minitest'
   gem 'minitest-spec-rails'
   gem 'minitest-wscolor'
   gem 'mocha'
